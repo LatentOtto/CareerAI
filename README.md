@@ -78,14 +78,14 @@ environment variables — no code change required:
 ```bash
 # Chutes (OpenAI-compatible inference). Confirm base URL / model id against the
 # Chutes workshop materials before relying on these defaults.
-export CHUTES_API_KEY="..."
+export CHUTES_API_KEY="cpk_64b7cce9aabb4faab244caed5463291a.b36ede5fb84351f3aac53a974231e550.YyHOkEb3ET2ZVsn0bv7awFJgyitWQS5f"
 export CHUTES_BASE_URL="https://llm.chutes.ai/v1"
 export CHUTES_MODEL="deepseek-ai/DeepSeek-V3"
 
 # Morpheus (on-chain attestation anchoring). Confirm the submission endpoint /
 # verify API against the Morpheus DeAI workshop materials.
 export MORPHEUS_ENDPOINT="https://<morpheus-endpoint>/attest"
-export MORPHEUS_API_KEY="..."
+export MORPHEUS_API_KEY="https://api.mor.org/api/v1"
 ```
 
 Both integrations **degrade gracefully**: if a Chutes call fails, intake falls
