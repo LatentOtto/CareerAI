@@ -7,7 +7,7 @@ Built for AI Marathon 2026 (Team X-Force) on the *Autonomous Sales Engineer* pro
 
 ---
 
-## The core idea: propose → validate → repair
+## The core idea: Propose → Validate → Repair
 
 The LLM **proposes**; deterministic gates **dispose**. No LLM ever finalizes a
 configuration that the rules engine has not passed. That is the moat — it makes
